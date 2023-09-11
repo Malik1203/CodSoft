@@ -1,0 +1,95 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1DB954;
+    border-image: url(5.png)
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('6.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.playlist-button {
+    background-image: url(0.jpeg);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color:red;
+    text-decoration: none;
+}
+
+.playlist-button img {
+    max-width: 200%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+.playlist-button:hover {
+    background-image: url(9.png);
+}
+
+.playlist-button {
+    font-size: 25px;
+}
+
+.cta-button {
+    background-color: #1DB954;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color:black;
+}
+
+.featured-playlists {
+    background-image: url(7.jpeg);
+    font-size: 30px;
+    font-family:sans-serif;
+    font-style: oblique;
+    color: aqua;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
